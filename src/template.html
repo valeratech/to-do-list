@@ -2,9 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <script src="https://kit.fontawesome.com/4937e1ecde.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<p>hello</p>
+<header id="main-header">
+    <i class="fa-solid fa-poo-storm"></i>
+    <h1>To <span>Doo-Doo</span></h1>
+</header>
+<main>
+    <nav>
+        <header>
+            <button type="button"><i class="fa-solid fa-bars"></i></button><h2>HOME</h2>
+        </header>
+        <section>
+            <header
+            <h3>Tasks</h3>
+            <button type="button">All</button>
+            <button type="button">Today</button>
+            <button type="button">This Week</button>
+        </section>
+        <section>
+            <h3>Projects</h3>
+            <button type="button">Add Project</button>
+        </section>
+    </nav>
+    <div id="content">
+        <span></span>
+    </div>
+</main>
+<footer>
+    <p>&copy;Copyright of ImStylinOnYou Technical Solutions of Technology, in the Internet Technology's Technical Field for Technologist</p>
+</footer>
 </body>
 </html>
