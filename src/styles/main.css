@@ -4,17 +4,55 @@
     padding: 0;
 }
 
+body {
+    color: #383131;
+}
+
 #logo {
     color: #A25F08;
+    font-size: 3.052rem;
+    padding: 0 15px;
+    line-height: 0;
+}
+
+h1 {
+    font-size: 3.815rem;
+}
+
+.h1-doo {
+    color: #A25F08;
+}
+
+h2 {
+    font-size: 1.953rem;
+}
+
+h3 {
+    font-size: 1.563rem;
 }
 
 #main-header {
     display: flex;
     background-color: #93CCEA;
+    padding: 40px 20px;
+    align-items: center;
+    box-shadow: 1px 5px 5px grey;
+    position: relative;
 }
 
 main {
     display: flex;
+    min-height: calc(100vh - 130px - 60px);
+}
+
+nav {
+    background-color: #FFFED1;
+    width: 350px;
+    padding: 20px;
+}
+
+#nav-header, #tasks, #projects {
+    margin-bottom: 25px;
 }
 
 #nav-header {
@@ -26,10 +64,41 @@ main {
     flex-direction: column;
 }
 
+#projects {
+    display: flex;
+    flex-direction: column;
+}
+
+#content {
+    margin: 25px;
+}
+
 footer {
     background-color: #f4d570;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 30px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+button {
+    border-style: none;
+    background-color: #FFFED1;
+    text-align: left;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #f1f1f1;
+}
+
+button:active {
+    background-color: #A25F08;
+}
+
+#tasks > button, #projects > button {
+    padding: 15px 20px;
+    font-size: 1.25rem;
 }
