@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\n#main-header {\n  background-color: #93CCEA;\n}\n\nfooter {\n  background-color: #f4d570;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;EACI,sBAAA;EACA,SAAA;EACA,UAAA;AACJ;;AAEA;EACI,yBAAA;AACJ;;AAEA;EACI,yBAAA;AACJ","sourcesContent":["* {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n}\n\n#main-header {\n    background-color: #93CCEA;\n}\n\nfooter {\n    background-color: #f4d570;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\n#logo {\n  color: #A25F08;\n}\n\n#main-header {\n  display: flex;\n  background-color: #93CCEA;\n}\n\nmain {\n  display: flex;\n}\n\n#nav-header {\n  display: flex;\n}\n\n#tasks {\n  display: flex;\n  flex-direction: column;\n}\n\nfooter {\n  background-color: #f4d570;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 30px;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;EACI,sBAAA;EACA,SAAA;EACA,UAAA;AACJ;;AAEA;EACI,cAAA;AACJ;;AAEA;EACI,aAAA;EACA,yBAAA;AACJ;;AAEA;EACI,aAAA;AACJ;;AAEA;EACI,aAAA;AACJ;;AAEA;EACI,aAAA;EACA,sBAAA;AACJ;;AAEA;EACI,yBAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,aAAA;AACJ","sourcesContent":["* {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n}\n\n#logo {\n    color: #A25F08;\n}\n\n#main-header {\n    display: flex;\n    background-color: #93CCEA;\n}\n\nmain {\n    display: flex;\n}\n\n#nav-header {\n    display: flex;\n}\n\n#tasks {\n    display: flex;\n    flex-direction: column;\n}\n\nfooter {\n    background-color: #f4d570;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    padding: 30px;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -593,4 +593,4 @@ __webpack_require__.r(__webpack_exports__);
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle5f0a941c7142bf18f939.js.map
+//# sourceMappingURL=bundleb2338601a6e1aee8c91c.js.map

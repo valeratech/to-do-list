@@ -4,10 +4,32 @@
     padding: 0;
 }
 
+#logo {
+    color: #A25F08;
+}
+
 #main-header {
+    display: flex;
     background-color: #93CCEA;
+}
+
+main {
+    display: flex;
+}
+
+#nav-header {
+    display: flex;
+}
+
+#tasks {
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
     background-color: #f4d570;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
