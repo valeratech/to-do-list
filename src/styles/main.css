@@ -82,7 +82,7 @@ nav {
     margin: 50px;
 }
 
-.modules > button  {
+.modules > button {
     padding: 15px 20px;
     font-size: 1.25rem;
 }
@@ -115,4 +115,17 @@ button:hover {
 
 #tasks > button:active, #projects > button:active {
     background-color: #A25F08;
+}
+
+.todo--container {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgreen;
+    padding: 15px 20px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+.todo--complete {
+    font-size: 1.25rem;
 }

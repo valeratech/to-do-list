@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  color: #383131;\n}\n\n#logo {\n  color: #A25F08;\n  font-size: 3.052rem;\n  padding: 0 15px;\n  line-height: 0;\n}\n\nh1 {\n  font-size: 3.815rem;\n}\n\n.h1-doo {\n  color: #A25F08;\n}\n\nh2 {\n  font-size: 1.953rem;\n}\n\nh3 {\n  font-size: 1.563rem;\n}\n\n#main-header {\n  display: flex;\n  background-color: #b8e6ff;\n  padding: 40px 20px;\n  align-items: center;\n  box-shadow: 1px 5px 5px #808080;\n  position: relative;\n}\n\nmain {\n  display: flex;\n  min-height: calc(100vh - 130px - 60px);\n}\n\nnav {\n  background-color: #fffec1;\n  width: 350px;\n  padding: 20px;\n  border-top-right-radius: 50px;\n  border-bottom-right-radius: 50px;\n}\n\n#nav-header, #tasks, #projects {\n  margin-bottom: 25px;\n}\n\n#nav-header {\n  display: flex;\n}\n\n#tasks {\n  display: flex;\n  flex-direction: column;\n}\n\n#projects {\n  display: flex;\n  flex-direction: column;\n}\n\n#content {\n  width: 1000px;\n}\n\n.modules {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  margin: 50px;\n}\n\n.modules > button {\n  padding: 15px 20px;\n  font-size: 1.25rem;\n}\n\nfooter {\n  background-color: #f4d570;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 30px;\n  /*border-top-left-radius: 25px;*/\n  /*border-top-right-radius: 25px;*/\n}\n\nbutton {\n  border-style: none;\n  background-color: #fffec1;\n  text-align: left;\n  border-radius: 15px;\n}\n\nbutton:hover {\n  background-color: #f1f1f1;\n}\n\n#tasks > button, #projects > button {\n  padding: 15px 20px;\n  font-size: 1.25rem;\n}\n\n#tasks > button:active, #projects > button:active {\n  background-color: #A25F08;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;EACI,sBAAA;EACA,SAAA;EACA,UAAA;AACJ;;AAEA;EACI,cAAA;AACJ;;AAEA;EACI,cAAA;EACA,mBAAA;EACA,eAAA;EACA,cAAA;AACJ;;AAEA;EACI,mBAAA;AACJ;;AAEA;EACI,cAAA;AACJ;;AAEA;EACI,mBAAA;AACJ;;AAEA;EACI,mBAAA;AACJ;;AAEA;EACI,aAAA;EACA,yBAAA;EACA,kBAAA;EACA,mBAAA;EACA,+BAAA;EACA,kBAAA;AACJ;;AAEA;EACI,aAAA;EACA,sCAAA;AACJ;;AAEA;EACI,yBAAA;EACA,YAAA;EACA,aAAA;EACA,6BAAA;EACA,gCAAA;AACJ;;AAEA;EACI,mBAAA;AACJ;;AAEA;EACI,aAAA;AACJ;;AAEA;EACI,aAAA;EACA,sBAAA;AACJ;;AAEA;EACI,aAAA;EACA,sBAAA;AACJ;;AAEA;EACI,aAAA;AACJ;;AAEA;EACI,aAAA;EACA,sBAAA;EACA,WAAA;EACA,YAAA;AACJ;;AAEA;EACI,kBAAA;EACA,kBAAA;AACJ;;AAEA;EACI,yBAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,aAAA;EACA,gCAAA;EACA,iCAAA;AACJ;;AAEA;EACI,kBAAA;EACA,yBAAA;EACA,gBAAA;EACA,mBAAA;AACJ;;AAEA;EACI,yBAAA;AACJ;;AAEA;EACI,kBAAA;EACA,kBAAA;AACJ;;AAEA;EACI,yBAAA;AACJ","sourcesContent":["* {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n}\n\nbody {\n    color: #383131;\n}\n\n#logo {\n    color: #A25F08;\n    font-size: 3.052rem;\n    padding: 0 15px;\n    line-height: 0;\n}\n\nh1 {\n    font-size: 3.815rem;\n}\n\n.h1-doo {\n    color: #A25F08;\n}\n\nh2 {\n    font-size: 1.953rem;\n}\n\nh3 {\n    font-size: 1.563rem;\n}\n\n#main-header {\n    display: flex;\n    background-color: #b8e6ff;\n    padding: 40px 20px;\n    align-items: center;\n    box-shadow: 1px 5px 5px #808080;\n    position: relative;\n}\n\nmain {\n    display: flex;\n    min-height: calc(100vh - 130px - 60px);\n}\n\nnav {\n    background-color: #fffec1;\n    width: 350px;\n    padding: 20px;\n    border-top-right-radius: 50px;\n    border-bottom-right-radius: 50px;\n}\n\n#nav-header, #tasks, #projects {\n    margin-bottom: 25px;\n}\n\n#nav-header {\n    display: flex;\n}\n\n#tasks {\n    display: flex;\n    flex-direction: column;\n}\n\n#projects {\n    display: flex;\n    flex-direction: column;\n}\n\n#content {\n    width: 1000px;\n}\n\n.modules {\n    display: flex;\n    flex-direction: column;\n    width: 100%;\n    margin: 50px;\n}\n\n.modules > button  {\n    padding: 15px 20px;\n    font-size: 1.25rem;\n}\n\nfooter {\n    background-color: #f4d570;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    padding: 30px;\n    /*border-top-left-radius: 25px;*/\n    /*border-top-right-radius: 25px;*/\n}\n\nbutton {\n    border-style: none;\n    background-color: #fffec1;\n    text-align: left;\n    border-radius: 15px;\n}\n\nbutton:hover {\n    background-color: #f1f1f1;\n}\n\n#tasks > button, #projects > button {\n    padding: 15px 20px;\n    font-size: 1.25rem;\n}\n\n#tasks > button:active, #projects > button:active {\n    background-color: #A25F08;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  color: #383131;\n}\n\n#logo {\n  color: #A25F08;\n  font-size: 3.052rem;\n  padding: 0 15px;\n  line-height: 0;\n}\n\nh1 {\n  font-size: 3.815rem;\n}\n\n.h1-doo {\n  color: #A25F08;\n}\n\nh2 {\n  font-size: 1.953rem;\n}\n\nh3 {\n  font-size: 1.563rem;\n}\n\n#main-header {\n  display: flex;\n  background-color: #b8e6ff;\n  padding: 40px 20px;\n  align-items: center;\n  box-shadow: 1px 5px 5px #808080;\n  position: relative;\n}\n\nmain {\n  display: flex;\n  min-height: calc(100vh - 130px - 60px);\n}\n\nnav {\n  background-color: #fffec1;\n  width: 350px;\n  padding: 20px;\n  border-top-right-radius: 50px;\n  border-bottom-right-radius: 50px;\n}\n\n#nav-header, #tasks, #projects {\n  margin-bottom: 25px;\n}\n\n#nav-header {\n  display: flex;\n}\n\n#tasks {\n  display: flex;\n  flex-direction: column;\n}\n\n#projects {\n  display: flex;\n  flex-direction: column;\n}\n\n#content {\n  width: 1000px;\n}\n\n.modules {\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  margin: 50px;\n}\n\n.modules > button {\n  padding: 15px 20px;\n  font-size: 1.25rem;\n}\n\nfooter {\n  background-color: #f4d570;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 30px;\n  /*border-top-left-radius: 25px;*/\n  /*border-top-right-radius: 25px;*/\n}\n\nbutton {\n  border-style: none;\n  background-color: #fffec1;\n  text-align: left;\n  border-radius: 15px;\n}\n\nbutton:hover {\n  background-color: #f1f1f1;\n}\n\n#tasks > button, #projects > button {\n  padding: 15px 20px;\n  font-size: 1.25rem;\n}\n\n#tasks > button:active, #projects > button:active {\n  background-color: #A25F08;\n}\n\n.todo--container {\n  display: flex;\n  justify-content: space-between;\n  background-color: lightgreen;\n  padding: 15px 20px;\n  margin-bottom: 5px;\n  border-radius: 15px;\n}\n\n.todo--complete {\n  font-size: 1.25rem;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;EACI,sBAAA;EACA,SAAA;EACA,UAAA;AACJ;;AAEA;EACI,cAAA;AACJ;;AAEA;EACI,cAAA;EACA,mBAAA;EACA,eAAA;EACA,cAAA;AACJ;;AAEA;EACI,mBAAA;AACJ;;AAEA;EACI,cAAA;AACJ;;AAEA;EACI,mBAAA;AACJ;;AAEA;EACI,mBAAA;AACJ;;AAEA;EACI,aAAA;EACA,yBAAA;EACA,kBAAA;EACA,mBAAA;EACA,+BAAA;EACA,kBAAA;AACJ;;AAEA;EACI,aAAA;EACA,sCAAA;AACJ;;AAEA;EACI,yBAAA;EACA,YAAA;EACA,aAAA;EACA,6BAAA;EACA,gCAAA;AACJ;;AAEA;EACI,mBAAA;AACJ;;AAEA;EACI,aAAA;AACJ;;AAEA;EACI,aAAA;EACA,sBAAA;AACJ;;AAEA;EACI,aAAA;EACA,sBAAA;AACJ;;AAEA;EACI,aAAA;AACJ;;AAEA;EACI,aAAA;EACA,sBAAA;EACA,WAAA;EACA,YAAA;AACJ;;AAEA;EACI,kBAAA;EACA,kBAAA;AACJ;;AAEA;EACI,yBAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,aAAA;EACA,gCAAA;EACA,iCAAA;AACJ;;AAEA;EACI,kBAAA;EACA,yBAAA;EACA,gBAAA;EACA,mBAAA;AACJ;;AAEA;EACI,yBAAA;AACJ;;AAEA;EACI,kBAAA;EACA,kBAAA;AACJ;;AAEA;EACI,yBAAA;AACJ;;AAEA;EACI,aAAA;EACA,8BAAA;EACA,4BAAA;EACA,kBAAA;EACA,kBAAA;EACA,mBAAA;AACJ;;AAEA;EACI,kBAAA;AACJ","sourcesContent":["* {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n}\n\nbody {\n    color: #383131;\n}\n\n#logo {\n    color: #A25F08;\n    font-size: 3.052rem;\n    padding: 0 15px;\n    line-height: 0;\n}\n\nh1 {\n    font-size: 3.815rem;\n}\n\n.h1-doo {\n    color: #A25F08;\n}\n\nh2 {\n    font-size: 1.953rem;\n}\n\nh3 {\n    font-size: 1.563rem;\n}\n\n#main-header {\n    display: flex;\n    background-color: #b8e6ff;\n    padding: 40px 20px;\n    align-items: center;\n    box-shadow: 1px 5px 5px #808080;\n    position: relative;\n}\n\nmain {\n    display: flex;\n    min-height: calc(100vh - 130px - 60px);\n}\n\nnav {\n    background-color: #fffec1;\n    width: 350px;\n    padding: 20px;\n    border-top-right-radius: 50px;\n    border-bottom-right-radius: 50px;\n}\n\n#nav-header, #tasks, #projects {\n    margin-bottom: 25px;\n}\n\n#nav-header {\n    display: flex;\n}\n\n#tasks {\n    display: flex;\n    flex-direction: column;\n}\n\n#projects {\n    display: flex;\n    flex-direction: column;\n}\n\n#content {\n    width: 1000px;\n}\n\n.modules {\n    display: flex;\n    flex-direction: column;\n    width: 100%;\n    margin: 50px;\n}\n\n.modules > button {\n    padding: 15px 20px;\n    font-size: 1.25rem;\n}\n\nfooter {\n    background-color: #f4d570;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    padding: 30px;\n    /*border-top-left-radius: 25px;*/\n    /*border-top-right-radius: 25px;*/\n}\n\nbutton {\n    border-style: none;\n    background-color: #fffec1;\n    text-align: left;\n    border-radius: 15px;\n}\n\nbutton:hover {\n    background-color: #f1f1f1;\n}\n\n#tasks > button, #projects > button {\n    padding: 15px 20px;\n    font-size: 1.25rem;\n}\n\n#tasks > button:active, #projects > button:active {\n    background-color: #A25F08;\n}\n\n.todo--container {\n    display: flex;\n    justify-content: space-between;\n    background-color: lightgreen;\n    padding: 15px 20px;\n    margin-bottom: 5px;\n    border-radius: 15px;\n}\n\n.todo--complete {\n    font-size: 1.25rem;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -517,10 +517,42 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ userInterface)
 /* harmony export */ });
+/* harmony import */ var _page_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./page.js */ "./src/modules/page.js");
+
 
 
 function userInterface() {
     console.log('hello');
+}
+
+(0,_page_js__WEBPACK_IMPORTED_MODULE_0__.loadPage)('All Tasks');
+
+/***/ }),
+
+/***/ "./src/modules/page.js":
+/*!*****************************!*\
+  !*** ./src/modules/page.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "createPage": () => (/* binding */ createPage),
+/* harmony export */   "loadPage": () => (/* binding */ loadPage)
+/* harmony export */ });
+function createPage(page){
+    const allTasks = document.createElement('article');
+    allTasks.className = 'modules';
+    const taskHeader = document.createElement('h2')
+    taskHeader.textContent = page;
+    allTasks.appendChild(taskHeader);
+    return allTasks
+}
+
+function loadPage(){
+
+    const content = document.getElementById('content');
+    content.appendChild(createPage('All Tasks'))
 }
 
 /***/ })
@@ -619,4 +651,4 @@ if (document.readyState === 'loading') {
 
 /******/ })()
 ;
-//# sourceMappingURL=bundledb8bec794ef57ad276c7.js.map
+//# sourceMappingURL=bundle25db059f5b6318b7ef43.js.map
