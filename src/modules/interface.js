@@ -1,34 +1,24 @@
 import { format } from 'date-fns'
 
 export default function userInterface() {
-    const myContainer = document.getElementById('content')
-    const createPage = function(e) {
-        console.log(e.target.id);
+    const contentContainer = document.getElementById('content')
+    const createPage = function(task) {
+        const taskbutton = document.createElement('article');
+        taskbutton.className = 'modules';
+        const taskHeader = document.createElement('h2')
+        taskHeader.textContent = task;
+        taskbutton.appendChild(taskHeader);
+        contentContainer.appendChild(taskbutton);
+        }
+    const loadPage = function(e) {
+        contentContainer.removeChild(contentContainer.firstElementChild);
         if (e.target.id === 'all') {
-            myContainer.removeChild(myContainer.firstElementChild);
-            const allTasks = document.createElement('article');
-            allTasks.className = 'modules';
-            const taskHeader = document.createElement('h2')
-            taskHeader.textContent = e.target.textContent;
-            allTasks.appendChild(taskHeader);
-            myContainer.appendChild(allTasks);
+            createPage('All');
         } else if (e.target.id === 'today') {
-            myContainer.removeChild(myContainer.firstElementChild);
-            const todaysTasks = document.createElement('article');
-            todaysTasks.className = 'modules';
-            const taskHeader = document.createElement('h2')
-            taskHeader.textContent = e.target.textContent;
-            todaysTasks.appendChild(taskHeader);
-            myContainer.appendChild(todaysTasks);
-        } else if (e.target.id === 'nextSeven') {
-            myContainer.removeChild(myContainer.firstElementChild);
-            const nextSevenTasks = document.createElement('article');
-            nextSevenTasks.className = 'modules';
-            const taskHeader = document.createElement('h2')
-            taskHeader.textContent = e.target.textContent;
-            nextSevenTasks.appendChild(taskHeader);
-            myContainer.appendChild(nextSevenTasks);
+            createPage('Today');
+        } if (e.target.id === 'nextSeven') {
+            createPage('Next Seven Days')
         }
     }
-    document.addEventListener('click',createPage);
+    document.addEventListener('click',loadPage);
 }
