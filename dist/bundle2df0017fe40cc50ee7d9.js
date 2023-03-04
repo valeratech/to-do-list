@@ -517,42 +517,39 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ userInterface)
 /* harmony export */ });
-/* harmony import */ var _page_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./page.js */ "./src/modules/page.js");
-
 
 
 function userInterface() {
-    console.log('hello');
-}
-
-(0,_page_js__WEBPACK_IMPORTED_MODULE_0__.loadPage)('All Tasks');
-
-/***/ }),
-
-/***/ "./src/modules/page.js":
-/*!*****************************!*\
-  !*** ./src/modules/page.js ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "createPage": () => (/* binding */ createPage),
-/* harmony export */   "loadPage": () => (/* binding */ loadPage)
-/* harmony export */ });
-function createPage(page){
-    const allTasks = document.createElement('article');
-    allTasks.className = 'modules';
-    const taskHeader = document.createElement('h2')
-    taskHeader.textContent = page;
-    allTasks.appendChild(taskHeader);
-    return allTasks
-}
-
-function loadPage(){
-
-    const content = document.getElementById('content');
-    content.appendChild(createPage('All Tasks'))
+    const myContainer = document.getElementById('content')
+    const createPage = function(e) {
+        console.log(e.target.id);
+        if (e.target.id === 'all') {
+            myContainer.removeChild(myContainer.firstElementChild);
+            const allTasks = document.createElement('article');
+            allTasks.className = 'modules';
+            const taskHeader = document.createElement('h2')
+            taskHeader.textContent = e.target.textContent;
+            allTasks.appendChild(taskHeader);
+            myContainer.appendChild(allTasks);
+        } else if (e.target.id === 'today') {
+            myContainer.removeChild(myContainer.firstElementChild);
+            const todaysTasks = document.createElement('article');
+            todaysTasks.className = 'modules';
+            const taskHeader = document.createElement('h2')
+            taskHeader.textContent = e.target.textContent;
+            todaysTasks.appendChild(taskHeader);
+            myContainer.appendChild(todaysTasks);
+        } else if (e.target.id === 'nextSeven') {
+            myContainer.removeChild(myContainer.firstElementChild);
+            const nextSevenTasks = document.createElement('article');
+            nextSevenTasks.className = 'modules';
+            const taskHeader = document.createElement('h2')
+            taskHeader.textContent = e.target.textContent;
+            nextSevenTasks.appendChild(taskHeader);
+            myContainer.appendChild(nextSevenTasks);
+        }
+    }
+    document.addEventListener('click',createPage);
 }
 
 /***/ })
@@ -651,4 +648,4 @@ if (document.readyState === 'loading') {
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle25db059f5b6318b7ef43.js.map
+//# sourceMappingURL=bundle2df0017fe40cc50ee7d9.js.map
