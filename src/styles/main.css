@@ -130,4 +130,15 @@ button:hover {
     font-size: 1.25rem;
 }
 
+/* Project */
 
+.add-project-buttons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-project {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.25rem;
+}
