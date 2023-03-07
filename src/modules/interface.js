@@ -11,18 +11,12 @@ export default function userInterface() {
         contentContainer.appendChild(taskContainer);
         taskContainer.appendChild(taskHeader);
         }
-    const getTasks = function() {
-
-    }
     const loadPage = function(e) {
-        if (e.target.id === 'all') {
-            createPage('All');
-        } else if (e.target.id === 'today') {
-            createPage('Today');
-        } else if (e.target.id === 'nextSeven') {
-            createPage('Next 7 Days')
-        }
+        createPage(e.target.textContent);
     }
+
+    // Event Listeners
+    document.querySelectorAll('.nav-button').forEach(button => button.addEventListener('click',loadPage))
+    // Load Starting Page
     createPage('All');
-    document.addEventListener('click',loadPage);
 }

@@ -66,7 +66,7 @@ nav {
     flex-direction: column;
 }
 
-#projects {
+#projects, .project-list {
     display: flex;
     flex-direction: column;
 }
@@ -82,7 +82,7 @@ nav {
     margin: 50px;
 }
 
-.modules > button {
+.modules > button, .project > button {
     padding: 15px 20px;
     font-size: 1.25rem;
 }
@@ -108,12 +108,12 @@ button:hover {
     background-color: #f1f1f1;
 }
 
-#tasks > button, #projects > button {
+#tasks > button, #projects button {
     padding: 15px 20px;
     font-size: 1.25rem;
 }
 
-#tasks > button:active, #projects > button:active {
+#tasks > button:active, #projects button:active {
     background-color: #A25F08;
 }
 
@@ -130,39 +130,4 @@ button:hover {
     font-size: 1.25rem;
 }
 
-.new-task {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    position: fixed;
-    bottom: 50px;
-    right: 50px;
-    z-index: 1000;
-    outline: transparent;
-    background: linear-gradient(135deg, #A25F08 0%, #824c05 100%);
-    color: #fff;
-    box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%), 0px 6px 10px 0px rgb(0 0 0 / 14%), 0px 1px 18px 0px rgb(0 0 0 / 12%);
-}
 
-.new-task:hover {
-    transform: rotate(90deg) scale(1.2);
-    cursor: pointer;
-}
-
-.new-task:active {
-    filter: opacity(80%);
-}
-
-.new-task {
-    transition: transform 0.25s, opacity 0.25s;
-}
-
-.new-task i {
-    font-size: 2rem;
-    line-height: 1.2;
-    border-radius: 50%;
-}
